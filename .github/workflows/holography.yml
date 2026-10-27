@@ -1,0 +1,25 @@
+name: Holography reference checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  calculations:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    strategy:
+      matrix:
+        python: ['3.12', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Test physical limits and independent reference values
+        run: python -m unittest discover -s "Теория Лены/Тест голографии 1" -v
+      - name: Verify offline calculation results
+        run: python "Теория Лены/Тест голографии 1/checks.py" --check --verbose
