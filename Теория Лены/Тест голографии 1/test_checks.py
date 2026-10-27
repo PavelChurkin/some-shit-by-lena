@@ -25,6 +25,13 @@ class RadiationTests(unittest.TestCase):
         integral = sum((i * step)**3 / math.expm1(i * step)
                        for i in range(1, 10000)) * step
         self.assertAlmostEqual(integral, math.pi**4 / 15, places=7)
+        # Also exercise B_nu itself against the independently tabulated SI flux.
+        temperature = 300
+        frequency_scale = checks.KB * temperature / checks.H
+        radiance = sum(checks.planck(i * step * frequency_scale, temperature)
+                       for i in range(1, 10000)) * step * frequency_scale
+        flux = checks.CONSTANTS['Stefan-Boltzmann constant'] * temperature**4
+        self.assertAlmostEqual(math.pi * radiance / flux, 1, places=8)
 
     def test_firas_column_units(self):
         rows = checks.firas_rows()
