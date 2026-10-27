@@ -118,6 +118,7 @@ def g2(probabilities):
     if not probabilities or any(p < 0 or not math.isfinite(p) for p in probabilities):
         raise ValueError('invalid photon probabilities')
     norm = sum(probabilities)
+    positive(norm)
     mean = sum(n * p for n, p in enumerate(probabilities)) / norm
     positive(mean)
     return sum(n * (n - 1) * p for n, p in enumerate(probabilities)) / norm / mean**2

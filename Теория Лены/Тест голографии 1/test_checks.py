@@ -169,7 +169,8 @@ class GravityAndMethodTests(unittest.TestCase):
                      lambda: checks.clock_rate(checks.C), lambda: checks.clock_rate(-1),
                      lambda: checks.hom(0, 0, 1), lambda: checks.hom(0, 1, 2),
                      lambda: checks.ice(300, 101325), lambda: checks.kerr_area_factor(1.1),
-                     lambda: checks.london_field(1, 0), lambda: checks.g2([1])]:
+                     lambda: checks.london_field(1, 0), lambda: checks.g2([1]),
+                     lambda: checks.g2([0, 0])]:
             with self.subTest(call=call), self.assertRaises(ValueError):
                 call()
 
