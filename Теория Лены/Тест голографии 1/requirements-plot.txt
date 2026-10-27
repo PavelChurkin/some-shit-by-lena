@@ -1,0 +1,2 @@
+# Optional: needed only to regenerate results/overview.png (Python 3.12).
+matplotlib==3.11.2

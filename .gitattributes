@@ -1,0 +1,5 @@
+# Preserve original bytes (including whitespace) of downloaded source material.
+"Теория Лены/Голография/Рефлексия.txt" -text -whitespace
+"Теория Лены/Тест голографии 1/data/codata-2022.txt" -text -whitespace
+"Теория Лены/Тест голографии 1/data/firas_monopole_spec_v1.txt" -text -whitespace
+"Теория Лены/Тест голографии 1/data/nist-ionization-raw.csv" -text -whitespace

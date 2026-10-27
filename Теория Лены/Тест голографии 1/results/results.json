@@ -1,0 +1,1968 @@
+{
+  "blackbody": {
+    "kind": "published_residuals_and_illustrative_ansatz",
+    "channels": 43,
+    "frequency_range_GHz": [
+      68.052887966,
+      639.457312914
+    ],
+    "diagonal_chi2_null": 45.02575431165271,
+    "residual_rms_kJy_sr": 71.53564731802811,
+    "linear_amplitude_A_at_1THz": -5.820980732303158e-06,
+    "diagonal_standard_error_A": 0.00020095047300794784,
+    "formal_confidence_bound": false,
+    "reason": "No covariance matrix, instrument response, or nuisance refit in this table.",
+    "illustrative_tau_sweep": [
+      {
+        "tau_s": 0,
+        "diagonal_chi2": 45.02575431165271
+      },
+      {
+        "tau_s": 1e-14,
+        "diagonal_chi2": 45.30222298624063
+      },
+      {
+        "tau_s": 1e-13,
+        "diagonal_chi2": 2522.3093976755545
+      },
+      {
+        "tau_s": 1e-12,
+        "diagonal_chi2": 22877714.042295467
+      }
+    ],
+    "planck_time_fraction_at_1THz": -2.906553826645406e-63,
+    "planck_Bnu_160GHz_2_725K_MJy_sr": 383.6650221755702
+  },
+  "photons": {
+    "kind": "quantum_optics_reference_not_new_correlations",
+    "g2_coherent": 1.0,
+    "g2_thermal": 2.0000000000000004,
+    "g2_one_photon": 0.0,
+    "gaussian_HOM_example_sigma_fs": 100,
+    "HOM_probabilities": [
+      {
+        "delay_fs": -300,
+        "coincidence_probability": 0.49444550173087887
+      },
+      {
+        "delay_fs": -100,
+        "coincidence_probability": 0.1967346701436833
+      },
+      {
+        "delay_fs": 0,
+        "coincidence_probability": 0.0
+      },
+      {
+        "delay_fs": 100,
+        "coincidence_probability": 0.1967346701436833
+      },
+      {
+        "delay_fs": 300,
+        "coincidence_probability": 0.49444550173087887
+      }
+    ],
+    "experimental_residual_test_performed": false,
+    "reason": "Attachment contains no time tags/counts, detector model or predicted residual."
+  },
+  "sodium_helium": {
+    "kind": "published_counterexample_and_dimensional_check",
+    "compound": "Na2He",
+    "reported_stability_above_GPa": 113,
+    "structure": "fluorite-type electride",
+    "illustrative_pressure_GPa": 113,
+    "illustrative_delta_volume_A3": -1,
+    "illustrative_P_deltaV_eV": -0.7052905254140663,
+    "predicted_phase_boundary": false,
+    "reason": "Symmetry alone gives no Gibbs energies or temperature dependence."
+  },
+  "ice": {
+    "kind": "IAPWS_reference_EOS",
+    "rows_at_101325Pa": [
+      {
+        "T_K": 100,
+        "p_Pa": 101325,
+        "rho_kg_m3": 933.0488722637082,
+        "alpha_volume_K_inverse": 3.0356343871187745e-05,
+        "alpha_linear_average_K_inverse": 1.0118781290395915e-05
+      },
+      {
+        "T_K": 150,
+        "p_Pa": 101325,
+        "rho_kg_m3": 930.6144061172847,
+        "alpha_volume_K_inverse": 7.513594239593148e-05,
+        "alpha_linear_average_K_inverse": 2.504531413197716e-05
+      },
+      {
+        "T_K": 200,
+        "p_Pa": 101325,
+        "rho_kg_m3": 926.1317493111029,
+        "alpha_volume_K_inverse": 0.0001164081161965166,
+        "alpha_linear_average_K_inverse": 3.880270539883887e-05
+      },
+      {
+        "T_K": 250,
+        "p_Pa": 101325,
+        "rho_kg_m3": 919.9963944337112,
+        "alpha_volume_K_inverse": 0.0001479627024281974,
+        "alpha_linear_average_K_inverse": 4.9320900809399135e-05
+      },
+      {
+        "T_K": 270,
+        "p_Pa": 101325,
+        "rho_kg_m3": 917.1813096524886,
+        "alpha_volume_K_inverse": 0.00015830909500950987,
+        "alpha_linear_average_K_inverse": 5.276969833650329e-05
+      }
+    ],
+    "holographic_prediction": false
+  },
+  "constants": {
+    "kind": "measured_targets_and_QED_one_loop_reference",
+    "alpha_reference": 0.0072973525643,
+    "inverse_alpha_reference": 137.03599917759013,
+    "inverse_alpha_rounded_issue_relative_error": 6.0014146985309935e-09,
+    "electron_MeV": 0.51099895069,
+    "proton_MeV": 938.27208943,
+    "neutron_MeV": 939.56542194,
+    "proton_over_neutron": 0.9986234779614075,
+    "electron_over_proton": 0.0005446170214872657,
+    "proton_over_electron_reference": 1836.152673426,
+    "anomaly_reference": 0.00115965218046,
+    "g_abs_reference": 2.00231930436092,
+    "anomaly_one_loop": 0.001161409732092663,
+    "g_abs_one_loop": 2.0023228194641853,
+    "alpha_derived_from_geometry": false,
+    "reason": "No dimensionless coupling or mass-generating eigenproblem is supplied."
+  },
+  "helium": {
+    "kind": "ideal_gas_baseline_compared_with_liquid",
+    "density_kg_m3": 146.15,
+    "measured_lambda_K": 2.1768,
+    "ideal_bec_K": 3.150928587717694,
+    "relative_error": 0.4475048638908921,
+    "holographic_prediction": false,
+    "reason": "Liquid interactions and superfluid density are not specified."
+  },
+  "superconductivity": {
+    "kind": "published_same_element_phase_comparison_and_London_reference",
+    "alpha_Ga": {
+      "Tc_K": 1.08,
+      "space_group": "Cmca",
+      "atoms_per_cell": 8
+    },
+    "beta_Ga": {
+      "Tc_K": 6.04,
+      "Tc_uncertainty_K": 0.05,
+      "space_group": "C2/c",
+      "atoms_per_cell": 4
+    },
+    "Tc_ratio": 5.592592592592593,
+    "illustrative_penetration_nm": 40,
+    "field_ratio_at_5_penetrations": 0.006737946999085467,
+    "holographic_prediction": false,
+    "reason": "Two phases show structure matters, but do not isolate symmetry from bands/phonons."
+  },
+  "centrifuge": {
+    "kind": "special_relativity_reference",
+    "radius_m": 1.0,
+    "rpm": 60000,
+    "speed_m_s": 6283.185307179587,
+    "lag_per_day_s": 1.8975886660175095e-05,
+    "proper_time_over_lab": 0.9999999997803717,
+    "internal_speedup_possible_by_rotation": false,
+    "gamma_for_external_100000yr_internal_1day": 36525000.0,
+    "one_minus_beta_for_that_gamma_approx": 3.7479134662999334e-16,
+    "acceleration_m_s2": 39478417.60435744
+  },
+  "agate": {
+    "kind": "empirical_pattern_illustration_not_agate_synthesis",
+    "assumed_D_m2_s": 1e-09,
+    "assumed_spacing_coefficient": 0.1,
+    "bands": [
+      {
+        "band": 1,
+        "position_m": 0.001,
+        "time_s": 499.99999999999994
+      },
+      {
+        "band": 2,
+        "position_m": 0.0011,
+        "time_s": 605.0
+      },
+      {
+        "band": 3,
+        "position_m": 0.0012100000000000001,
+        "time_s": 732.0500000000001
+      },
+      {
+        "band": 4,
+        "position_m": 0.0013310000000000004,
+        "time_s": 885.7805000000004
+      },
+      {
+        "band": 5,
+        "position_m": 0.0014641000000000005,
+        "time_s": 1071.7944050000008
+      },
+      {
+        "band": 6,
+        "position_m": 0.0016105100000000005,
+        "time_s": 1296.8712300500008
+      },
+      {
+        "band": 7,
+        "position_m": 0.001771561000000001,
+        "time_s": 1569.2141883605016
+      },
+      {
+        "band": 8,
+        "position_m": 0.0019487171000000013,
+        "time_s": 1898.7491679162076
+      }
+    ],
+    "experimental_agate_growth_performed": false,
+    "reason": "No solution recipe, measured pattern or kinetic operator in supplied material."
+  },
+  "atoms": {
+    "kind": "atomic_reference_table_and_explicit_heuristics",
+    "radius_definition": "Pyykko-Atsumi single-bond covalent fitted radii, not free-atom boundaries",
+    "radii": [
+      {
+        "Z": 1,
+        "symbol": "H",
+        "period_n_heuristic": 1,
+        "reference_radius_pm": 32.0,
+        "unscreened_radius_pm": 52.9177210544,
+        "inferred_zeff_from_reference_not_prediction": 1.65367878295,
+        "slater_zeff": 1.0,
+        "slater_radius_pm": 52.9177210544,
+        "ionization_eV": 13.598434599702,
+        "ionization_source_marker": "(",
+        "ionization_uncertainty_eV": "0.000000000012"
+      },
+      {
+        "Z": 2,
+        "symbol": "He",
+        "period_n_heuristic": 1,
+        "reference_radius_pm": 46.0,
+        "unscreened_radius_pm": 26.4588605272,
+        "inferred_zeff_from_reference_not_prediction": 1.1503852403130435,
+        "slater_zeff": 1.7,
+        "slater_radius_pm": 31.128071208470587,
+        "ionization_eV": 24.587389011,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000000025"
+      },
+      {
+        "Z": 3,
+        "symbol": "Li",
+        "period_n_heuristic": 2,
+        "reference_radius_pm": 133.0,
+        "unscreened_radius_pm": 70.55696140586666,
+        "inferred_zeff_from_reference_not_prediction": 1.5915104076511277,
+        "slater_zeff": 1.3,
+        "slater_radius_pm": 162.82375709046153,
+        "ionization_eV": 5.391714996,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000000022"
+      },
+      {
+        "Z": 4,
+        "symbol": "Be",
+        "period_n_heuristic": 2,
+        "reference_radius_pm": 102.0,
+        "unscreened_radius_pm": 52.9177210544,
+        "inferred_zeff_from_reference_not_prediction": 2.0752047472313726,
+        "slater_zeff": 1.95,
+        "slater_radius_pm": 108.54917139364102,
+        "ionization_eV": 9.322699,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000007"
+      },
+      {
+        "Z": 5,
+        "symbol": "B",
+        "period_n_heuristic": 2,
+        "reference_radius_pm": 85.0,
+        "unscreened_radius_pm": 42.33417684352,
+        "inferred_zeff_from_reference_not_prediction": 2.490245696677647,
+        "slater_zeff": 2.5999999999999996,
+        "slater_radius_pm": 81.41187854523078,
+        "ionization_eV": 8.298019,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000003"
+      },
+      {
+        "Z": 6,
+        "symbol": "C",
+        "period_n_heuristic": 2,
+        "reference_radius_pm": 75.0,
+        "unscreened_radius_pm": 35.27848070293333,
+        "inferred_zeff_from_reference_not_prediction": 2.8222784562346663,
+        "slater_zeff": 3.25,
+        "slater_radius_pm": 65.12950283618461,
+        "ionization_eV": 11.260288,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.0000011"
+      },
+      {
+        "Z": 7,
+        "symbol": "N",
+        "period_n_heuristic": 2,
+        "reference_radius_pm": 71.0,
+        "unscreened_radius_pm": 30.23869774537143,
+        "inferred_zeff_from_reference_not_prediction": 2.981280059402817,
+        "slater_zeff": 3.8999999999999995,
+        "slater_radius_pm": 54.274585696820516,
+        "ionization_eV": 14.53413,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00004"
+      },
+      {
+        "Z": 8,
+        "symbol": "O",
+        "period_n_heuristic": 2,
+        "reference_radius_pm": 63.0,
+        "unscreened_radius_pm": 26.4588605272,
+        "inferred_zeff_from_reference_not_prediction": 3.3598553050412696,
+        "slater_zeff": 4.55,
+        "slater_radius_pm": 46.52107345441758,
+        "ionization_eV": 13.618055,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000007"
+      },
+      {
+        "Z": 9,
+        "symbol": "F",
+        "period_n_heuristic": 2,
+        "reference_radius_pm": 64.0,
+        "unscreened_radius_pm": 23.51898713528889,
+        "inferred_zeff_from_reference_not_prediction": 3.3073575659,
+        "slater_zeff": 5.2,
+        "slater_radius_pm": 40.70593927261538,
+        "ionization_eV": 17.42282,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00005"
+      },
+      {
+        "Z": 10,
+        "symbol": "Ne",
+        "period_n_heuristic": 2,
+        "reference_radius_pm": 67.0,
+        "unscreened_radius_pm": 21.16708842176,
+        "inferred_zeff_from_reference_not_prediction": 3.1592669286208954,
+        "slater_zeff": 5.8500000000000005,
+        "slater_radius_pm": 36.18305713121367,
+        "ionization_eV": 21.564541,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000007"
+      },
+      {
+        "Z": 11,
+        "symbol": "Na",
+        "period_n_heuristic": 3,
+        "reference_radius_pm": 155.0,
+        "unscreened_radius_pm": 43.29631722632727,
+        "inferred_zeff_from_reference_not_prediction": 3.0726418676748386,
+        "slater_zeff": 2.2,
+        "slater_radius_pm": 216.48158613163633,
+        "ionization_eV": 5.13907696,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00000025"
+      },
+      {
+        "Z": 12,
+        "symbol": "Mg",
+        "period_n_heuristic": 3,
+        "reference_radius_pm": 139.0,
+        "unscreened_radius_pm": 39.688290790799996,
+        "inferred_zeff_from_reference_not_prediction": 3.4263272625151076,
+        "slater_zeff": 2.8500000000000005,
+        "slater_radius_pm": 167.10859280336837,
+        "ionization_eV": 7.646236,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000004"
+      },
+      {
+        "Z": 13,
+        "symbol": "Al",
+        "period_n_heuristic": 3,
+        "reference_radius_pm": 126.0,
+        "unscreened_radius_pm": 36.63534534535384,
+        "inferred_zeff_from_reference_not_prediction": 3.779837218171428,
+        "slater_zeff": 3.500000000000001,
+        "slater_radius_pm": 136.0741398541714,
+        "ionization_eV": 5.985769,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000003"
+      },
+      {
+        "Z": 14,
+        "symbol": "Si",
+        "period_n_heuristic": 3,
+        "reference_radius_pm": 116.0,
+        "unscreened_radius_pm": 34.018534963542855,
+        "inferred_zeff_from_reference_not_prediction": 4.105685254220689,
+        "slater_zeff": 4.1499999999999995,
+        "slater_radius_pm": 114.76132276857832,
+        "ionization_eV": 8.15168,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00003"
+      },
+      {
+        "Z": 15,
+        "symbol": "P",
+        "period_n_heuristic": 3,
+        "reference_radius_pm": 111.0,
+        "unscreened_radius_pm": 31.75063263264,
+        "inferred_zeff_from_reference_not_prediction": 4.290626031437838,
+        "slater_zeff": 4.8,
+        "slater_radius_pm": 99.220726977,
+        "ionization_eV": 10.486686,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000015"
+      },
+      {
+        "Z": 16,
+        "symbol": "S",
+        "period_n_heuristic": 3,
+        "reference_radius_pm": 103.0,
+        "unscreened_radius_pm": 29.766218093099997,
+        "inferred_zeff_from_reference_not_prediction": 4.6238785387339805,
+        "slater_zeff": 5.45,
+        "slater_radius_pm": 87.38706229166971,
+        "ionization_eV": 10.3600167,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.0000014"
+      },
+      {
+        "Z": 17,
+        "symbol": "Cl",
+        "period_n_heuristic": 3,
+        "reference_radius_pm": 99.0,
+        "unscreened_radius_pm": 28.015264087623528,
+        "inferred_zeff_from_reference_not_prediction": 4.810701914036363,
+        "slater_zeff": 6.100000000000001,
+        "slater_radius_pm": 78.07532614583604,
+        "ionization_eV": 12.967633,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000016"
+      },
+      {
+        "Z": 18,
+        "symbol": "Ar",
+        "period_n_heuristic": 3,
+        "reference_radius_pm": 96.0,
+        "unscreened_radius_pm": 26.4588605272,
+        "inferred_zeff_from_reference_not_prediction": 4.9610363488499996,
+        "slater_zeff": 6.75,
+        "slater_radius_pm": 70.55696140586666,
+        "ionization_eV": 15.7596119,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.0000005"
+      },
+      {
+        "Z": 19,
+        "symbol": "K",
+        "period_n_heuristic": 4,
+        "reference_radius_pm": 196.0,
+        "unscreened_radius_pm": 44.562291414231574,
+        "inferred_zeff_from_reference_not_prediction": 4.319813963624489,
+        "slater_zeff": 2.1999999999999993,
+        "slater_radius_pm": 384.8561531229092,
+        "ionization_eV": 4.34066373,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00000009"
+      },
+      {
+        "Z": 20,
+        "symbol": "Ca",
+        "period_n_heuristic": 4,
+        "reference_radius_pm": 171.0,
+        "unscreened_radius_pm": 42.33417684352,
+        "inferred_zeff_from_reference_not_prediction": 4.951365712692398,
+        "slater_zeff": 2.849999999999998,
+        "slater_radius_pm": 297.08194276154404,
+        "ionization_eV": 6.113154921,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.0000000005"
+      },
+      {
+        "Z": 21,
+        "symbol": "Sc",
+        "period_n_heuristic": 4,
+        "reference_radius_pm": 148.0,
+        "unscreened_radius_pm": 40.318263660495234,
+        "inferred_zeff_from_reference_not_prediction": 5.720834708583784,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.56149,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00006"
+      },
+      {
+        "Z": 22,
+        "symbol": "Ti",
+        "period_n_heuristic": 4,
+        "reference_radius_pm": 136.0,
+        "unscreened_radius_pm": 38.48561531229091,
+        "inferred_zeff_from_reference_not_prediction": 6.225614241694117,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.82812,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000012"
+      },
+      {
+        "Z": 23,
+        "symbol": "V",
+        "period_n_heuristic": 4,
+        "reference_radius_pm": 134.0,
+        "unscreened_radius_pm": 36.81232769001739,
+        "inferred_zeff_from_reference_not_prediction": 6.318533857241791,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.746187,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000021"
+      },
+      {
+        "Z": 24,
+        "symbol": "Cr",
+        "period_n_heuristic": 4,
+        "reference_radius_pm": 122.0,
+        "unscreened_radius_pm": 35.27848070293333,
+        "inferred_zeff_from_reference_not_prediction": 6.940028990740983,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.76651,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00004"
+      },
+      {
+        "Z": 25,
+        "symbol": "Mn",
+        "period_n_heuristic": 4,
+        "reference_radius_pm": 119.0,
+        "unscreened_radius_pm": 33.867341474816,
+        "inferred_zeff_from_reference_not_prediction": 7.114987704793277,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 7.434038,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.0000012"
+      },
+      {
+        "Z": 26,
+        "symbol": "Fe",
+        "period_n_heuristic": 4,
+        "reference_radius_pm": 116.0,
+        "unscreened_radius_pm": 32.56475141809231,
+        "inferred_zeff_from_reference_not_prediction": 7.298996007503448,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 7.9024681,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.0000012"
+      },
+      {
+        "Z": 27,
+        "symbol": "Co",
+        "period_n_heuristic": 4,
+        "reference_radius_pm": 111.0,
+        "unscreened_radius_pm": 31.358649513718518,
+        "inferred_zeff_from_reference_not_prediction": 7.627779611445045,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 7.88101,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00012"
+      },
+      {
+        "Z": 28,
+        "symbol": "Ni",
+        "period_n_heuristic": 4,
+        "reference_radius_pm": 110.0,
+        "unscreened_radius_pm": 30.23869774537143,
+        "inferred_zeff_from_reference_not_prediction": 7.697123062458181,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 7.639878,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000017"
+      },
+      {
+        "Z": 29,
+        "symbol": "Cu",
+        "period_n_heuristic": 4,
+        "reference_radius_pm": 112.0,
+        "unscreened_radius_pm": 29.195984030013793,
+        "inferred_zeff_from_reference_not_prediction": 7.559674436342857,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 7.72638,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000004"
+      },
+      {
+        "Z": 30,
+        "symbol": "Zn",
+        "period_n_heuristic": 4,
+        "reference_radius_pm": 118.0,
+        "unscreened_radius_pm": 28.222784562346664,
+        "inferred_zeff_from_reference_not_prediction": 7.175284210766101,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 9.394197,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000006"
+      },
+      {
+        "Z": 31,
+        "symbol": "Ga",
+        "period_n_heuristic": 4,
+        "reference_radius_pm": 124.0,
+        "unscreened_radius_pm": 27.312372157109674,
+        "inferred_zeff_from_reference_not_prediction": 6.828093039277419,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 5.999302,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.0000012"
+      },
+      {
+        "Z": 32,
+        "symbol": "Ge",
+        "period_n_heuristic": 4,
+        "reference_radius_pm": 121.0,
+        "unscreened_radius_pm": 26.4588605272,
+        "inferred_zeff_from_reference_not_prediction": 6.99738460223471,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 7.899435,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000012"
+      },
+      {
+        "Z": 33,
+        "symbol": "As",
+        "period_n_heuristic": 4,
+        "reference_radius_pm": 121.0,
+        "unscreened_radius_pm": 25.657076874860604,
+        "inferred_zeff_from_reference_not_prediction": 6.99738460223471,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 9.78855,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00025"
+      },
+      {
+        "Z": 34,
+        "symbol": "Se",
+        "period_n_heuristic": 4,
+        "reference_radius_pm": 116.0,
+        "unscreened_radius_pm": 24.90245696677647,
+        "inferred_zeff_from_reference_not_prediction": 7.298996007503448,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 9.752368,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000006"
+      },
+      {
+        "Z": 35,
+        "symbol": "Br",
+        "period_n_heuristic": 4,
+        "reference_radius_pm": 114.0,
+        "unscreened_radius_pm": 24.190958196297142,
+        "inferred_zeff_from_reference_not_prediction": 7.427048569038596,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 11.81381,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00006"
+      },
+      {
+        "Z": 36,
+        "symbol": "Kr",
+        "period_n_heuristic": 4,
+        "reference_radius_pm": 117.0,
+        "unscreened_radius_pm": 23.51898713528889,
+        "inferred_zeff_from_reference_not_prediction": 7.236611426242734,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 13.9996055,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.0000020"
+      },
+      {
+        "Z": 37,
+        "symbol": "Rb",
+        "period_n_heuristic": 5,
+        "reference_radius_pm": 210.0,
+        "unscreened_radius_pm": 35.75521692864865,
+        "inferred_zeff_from_reference_not_prediction": 6.299728696952381,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 4.1771281,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.0000012"
+      },
+      {
+        "Z": 38,
+        "symbol": "Sr",
+        "period_n_heuristic": 5,
+        "reference_radius_pm": 185.0,
+        "unscreened_radius_pm": 34.81429016736842,
+        "inferred_zeff_from_reference_not_prediction": 7.1510433857297295,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 5.69486745,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00000012"
+      },
+      {
+        "Z": 39,
+        "symbol": "Y",
+        "period_n_heuristic": 5,
+        "reference_radius_pm": 163.0,
+        "unscreened_radius_pm": 33.92161606051282,
+        "inferred_zeff_from_reference_not_prediction": 8.116214885644172,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.21726,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00010"
+      },
+      {
+        "Z": 40,
+        "symbol": "Zr",
+        "period_n_heuristic": 5,
+        "reference_radius_pm": 154.0,
+        "unscreened_radius_pm": 33.073575659,
+        "inferred_zeff_from_reference_not_prediction": 8.590539132207793,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.634126,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000005"
+      },
+      {
+        "Z": 41,
+        "symbol": "Nb",
+        "period_n_heuristic": 5,
+        "reference_radius_pm": 147.0,
+        "unscreened_radius_pm": 32.26690308195122,
+        "inferred_zeff_from_reference_not_prediction": 8.999612424217688,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.75885,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00004"
+      },
+      {
+        "Z": 42,
+        "symbol": "Mo",
+        "period_n_heuristic": 5,
+        "reference_radius_pm": 138.0,
+        "unscreened_radius_pm": 31.498643484761903,
+        "inferred_zeff_from_reference_not_prediction": 9.586543669275363,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 7.09243,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00004"
+      },
+      {
+        "Z": 43,
+        "symbol": "Tc",
+        "period_n_heuristic": 5,
+        "reference_radius_pm": 128.0,
+        "unscreened_radius_pm": 30.766116892093024,
+        "inferred_zeff_from_reference_not_prediction": 10.3354923934375,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 7.11938,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00003"
+      },
+      {
+        "Z": 44,
+        "symbol": "Ru",
+        "period_n_heuristic": 5,
+        "reference_radius_pm": 125.0,
+        "unscreened_radius_pm": 30.06688696272727,
+        "inferred_zeff_from_reference_not_prediction": 10.58354421088,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 7.3605,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00005"
+      },
+      {
+        "Z": 45,
+        "symbol": "Rh",
+        "period_n_heuristic": 5,
+        "reference_radius_pm": 125.0,
+        "unscreened_radius_pm": 29.39873391911111,
+        "inferred_zeff_from_reference_not_prediction": 10.58354421088,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 7.4589,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00005"
+      },
+      {
+        "Z": 46,
+        "symbol": "Pd",
+        "period_n_heuristic": 5,
+        "reference_radius_pm": 120.0,
+        "unscreened_radius_pm": 28.759631007826087,
+        "inferred_zeff_from_reference_not_prediction": 11.024525219666666,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 8.336839,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000010"
+      },
+      {
+        "Z": 47,
+        "symbol": "Ag",
+        "period_n_heuristic": 5,
+        "reference_radius_pm": 128.0,
+        "unscreened_radius_pm": 28.147723965106383,
+        "inferred_zeff_from_reference_not_prediction": 10.3354923934375,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 7.576234,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000025"
+      },
+      {
+        "Z": 48,
+        "symbol": "Cd",
+        "period_n_heuristic": 5,
+        "reference_radius_pm": 136.0,
+        "unscreened_radius_pm": 27.561313049166667,
+        "inferred_zeff_from_reference_not_prediction": 9.72752225264706,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 8.99382,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000016"
+      },
+      {
+        "Z": 49,
+        "symbol": "In",
+        "period_n_heuristic": 5,
+        "reference_radius_pm": 142.0,
+        "unscreened_radius_pm": 26.99883727265306,
+        "inferred_zeff_from_reference_not_prediction": 9.316500185633803,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 5.7863558,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.0000005"
+      },
+      {
+        "Z": 50,
+        "symbol": "Sn",
+        "period_n_heuristic": 5,
+        "reference_radius_pm": 140.0,
+        "unscreened_radius_pm": 26.4588605272,
+        "inferred_zeff_from_reference_not_prediction": 9.449593045428571,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 7.343918,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000012"
+      },
+      {
+        "Z": 51,
+        "symbol": "Sb",
+        "period_n_heuristic": 5,
+        "reference_radius_pm": 140.0,
+        "unscreened_radius_pm": 25.940059340392157,
+        "inferred_zeff_from_reference_not_prediction": 9.449593045428571,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 8.608389,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000012"
+      },
+      {
+        "Z": 52,
+        "symbol": "Te",
+        "period_n_heuristic": 5,
+        "reference_radius_pm": 136.0,
+        "unscreened_radius_pm": 25.441212045384614,
+        "inferred_zeff_from_reference_not_prediction": 9.72752225264706,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 9.009808,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000006"
+      },
+      {
+        "Z": 53,
+        "symbol": "I",
+        "period_n_heuristic": 5,
+        "reference_radius_pm": 133.0,
+        "unscreened_radius_pm": 24.961189176603774,
+        "inferred_zeff_from_reference_not_prediction": 9.946940047819549,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 10.451236,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000025"
+      },
+      {
+        "Z": 54,
+        "symbol": "Xe",
+        "period_n_heuristic": 5,
+        "reference_radius_pm": 131.0,
+        "unscreened_radius_pm": 24.498944932592593,
+        "inferred_zeff_from_reference_not_prediction": 10.09880172793893,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 12.1298437,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.0000015"
+      },
+      {
+        "Z": 55,
+        "symbol": "Cs",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 232.0,
+        "unscreened_radius_pm": 34.637053781061816,
+        "inferred_zeff_from_reference_not_prediction": 8.211370508441378,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 3.89390572743,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00000000017"
+      },
+      {
+        "Z": 56,
+        "symbol": "Ba",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 196.0,
+        "unscreened_radius_pm": 34.018534963542855,
+        "inferred_zeff_from_reference_not_prediction": 9.719581418155101,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 5.2116646,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.0000012"
+      },
+      {
+        "Z": 57,
+        "symbol": "La",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 180.0,
+        "unscreened_radius_pm": 33.42171856067368,
+        "inferred_zeff_from_reference_not_prediction": 10.58354421088,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 5.5769,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.0006"
+      },
+      {
+        "Z": 58,
+        "symbol": "Ce",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 163.0,
+        "unscreened_radius_pm": 32.845482033765514,
+        "inferred_zeff_from_reference_not_prediction": 11.687349435327606,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 5.5386,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.0004"
+      },
+      {
+        "Z": 59,
+        "symbol": "Pr",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 176.0,
+        "unscreened_radius_pm": 32.28877894844746,
+        "inferred_zeff_from_reference_not_prediction": 10.824079306581817,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 5.4702,
+        "ionization_source_marker": "[",
+        "ionization_uncertainty_eV": "0.0004"
+      },
+      {
+        "Z": 60,
+        "symbol": "Nd",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 174.0,
+        "unscreened_radius_pm": 31.75063263264,
+        "inferred_zeff_from_reference_not_prediction": 10.948494011255171,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 5.52475,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00005"
+      },
+      {
+        "Z": 61,
+        "symbol": "Pm",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 173.0,
+        "unscreened_radius_pm": 31.230130458334422,
+        "inferred_zeff_from_reference_not_prediction": 11.01178010380578,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 5.58187,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00004"
+      },
+      {
+        "Z": 62,
+        "symbol": "Sm",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 172.0,
+        "unscreened_radius_pm": 30.726418676748384,
+        "inferred_zeff_from_reference_not_prediction": 11.075802081153487,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 5.643722,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000021"
+      },
+      {
+        "Z": 63,
+        "symbol": "Eu",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 168.0,
+        "unscreened_radius_pm": 30.238697745371425,
+        "inferred_zeff_from_reference_not_prediction": 11.339511654514284,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 5.670385,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000005"
+      },
+      {
+        "Z": 64,
+        "symbol": "Gd",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 169.0,
+        "unscreened_radius_pm": 29.766218093099997,
+        "inferred_zeff_from_reference_not_prediction": 11.272413952416567,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.1498,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00004"
+      },
+      {
+        "Z": 65,
+        "symbol": "Tb",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 168.0,
+        "unscreened_radius_pm": 29.308276276283074,
+        "inferred_zeff_from_reference_not_prediction": 11.339511654514284,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 5.8638,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.0006"
+      },
+      {
+        "Z": 66,
+        "symbol": "Dy",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 167.0,
+        "unscreened_radius_pm": 28.864211484218178,
+        "inferred_zeff_from_reference_not_prediction": 11.407412921906586,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 5.939061,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000006"
+      },
+      {
+        "Z": 67,
+        "symbol": "Ho",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 166.0,
+        "unscreened_radius_pm": 28.433402357588058,
+        "inferred_zeff_from_reference_not_prediction": 11.47613227685783,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.0215,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.0006"
+      },
+      {
+        "Z": 68,
+        "symbol": "Er",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 165.0,
+        "unscreened_radius_pm": 28.015264087623528,
+        "inferred_zeff_from_reference_not_prediction": 11.545684593687271,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.1077,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.0010"
+      },
+      {
+        "Z": 69,
+        "symbol": "Tm",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 164.0,
+        "unscreened_radius_pm": 27.60924576751304,
+        "inferred_zeff_from_reference_not_prediction": 11.616085109502437,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.184402,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000009"
+      },
+      {
+        "Z": 70,
+        "symbol": "Yb",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 170.0,
+        "unscreened_radius_pm": 27.214827970834282,
+        "inferred_zeff_from_reference_not_prediction": 11.206105635049411,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.25416,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000012"
+      },
+      {
+        "Z": 71,
+        "symbol": "Lu",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 162.0,
+        "unscreened_radius_pm": 26.83152053462535,
+        "inferred_zeff_from_reference_not_prediction": 11.759493567644443,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 5.425871,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000012"
+      },
+      {
+        "Z": 72,
+        "symbol": "Hf",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 152.0,
+        "unscreened_radius_pm": 26.4588605272,
+        "inferred_zeff_from_reference_not_prediction": 12.53314446025263,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.82507,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000012"
+      },
+      {
+        "Z": 73,
+        "symbol": "Ta",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 146.0,
+        "unscreened_radius_pm": 26.096410382991778,
+        "inferred_zeff_from_reference_not_prediction": 13.048205191495889,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 7.549571,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000025"
+      },
+      {
+        "Z": 74,
+        "symbol": "W",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 137.0,
+        "unscreened_radius_pm": 25.743756188627025,
+        "inferred_zeff_from_reference_not_prediction": 13.905386554440875,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 7.86403,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00010"
+      },
+      {
+        "Z": 75,
+        "symbol": "Re",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 131.0,
+        "unscreened_radius_pm": 25.400506106111997,
+        "inferred_zeff_from_reference_not_prediction": 14.54227448823206,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 7.83352,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00011"
+      },
+      {
+        "Z": 76,
+        "symbol": "Os",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 129.0,
+        "unscreened_radius_pm": 25.06628892050526,
+        "inferred_zeff_from_reference_not_prediction": 14.76773610820465,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 8.43823,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00020"
+      },
+      {
+        "Z": 77,
+        "symbol": "Ir",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 122.0,
+        "unscreened_radius_pm": 24.74075270075844,
+        "inferred_zeff_from_reference_not_prediction": 15.615065229167211,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 8.96702,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00022"
+      },
+      {
+        "Z": 78,
+        "symbol": "Pt",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 123.0,
+        "unscreened_radius_pm": 24.42356356356923,
+        "inferred_zeff_from_reference_not_prediction": 15.488113479336583,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 8.95883,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00010"
+      },
+      {
+        "Z": 79,
+        "symbol": "Au",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 124.0,
+        "unscreened_radius_pm": 24.114404531118986,
+        "inferred_zeff_from_reference_not_prediction": 15.363209338374192,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 9.225554,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000004"
+      },
+      {
+        "Z": 80,
+        "symbol": "Hg",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 133.0,
+        "unscreened_radius_pm": 23.812974474479997,
+        "inferred_zeff_from_reference_not_prediction": 14.323593668860148,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 10.437504,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000006"
+      },
+      {
+        "Z": 81,
+        "symbol": "Tl",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 144.0,
+        "unscreened_radius_pm": 23.518987135288885,
+        "inferred_zeff_from_reference_not_prediction": 13.2294302636,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.1082873,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.0000012"
+      },
+      {
+        "Z": 82,
+        "symbol": "Pb",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 144.0,
+        "unscreened_radius_pm": 23.232170219004875,
+        "inferred_zeff_from_reference_not_prediction": 13.2294302636,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 7.4166799,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.0000006"
+      },
+      {
+        "Z": 83,
+        "symbol": "Bi",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 151.0,
+        "unscreened_radius_pm": 22.95226455371566,
+        "inferred_zeff_from_reference_not_prediction": 12.616145416943045,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 7.285516,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000006"
+      },
+      {
+        "Z": 84,
+        "symbol": "Po",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 145.0,
+        "unscreened_radius_pm": 22.67902330902857,
+        "inferred_zeff_from_reference_not_prediction": 13.138192813506206,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 8.41807,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000004"
+      },
+      {
+        "Z": 85,
+        "symbol": "At",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 147.0,
+        "unscreened_radius_pm": 22.412211270098823,
+        "inferred_zeff_from_reference_not_prediction": 12.959441890873467,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 9.31751,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00008"
+      },
+      {
+        "Z": 86,
+        "symbol": "Rn",
+        "period_n_heuristic": 6,
+        "reference_radius_pm": 142.0,
+        "unscreened_radius_pm": 22.151604162306974,
+        "inferred_zeff_from_reference_not_prediction": 13.415760267312676,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 10.7485,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": ""
+      },
+      {
+        "Z": 87,
+        "symbol": "Fr",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 223.0,
+        "unscreened_radius_pm": 29.804233697305747,
+        "inferred_zeff_from_reference_not_prediction": 11.627660680114799,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 4.0727411,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.0000011"
+      },
+      {
+        "Z": 88,
+        "symbol": "Ra",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 201.0,
+        "unscreened_radius_pm": 29.465549223472728,
+        "inferred_zeff_from_reference_not_prediction": 12.900339958535325,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 5.2784239,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.0000025"
+      },
+      {
+        "Z": 89,
+        "symbol": "Ac",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 186.0,
+        "unscreened_radius_pm": 29.134475636692137,
+        "inferred_zeff_from_reference_not_prediction": 13.940689955191399,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 5.380235,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000012"
+      },
+      {
+        "Z": 90,
+        "symbol": "Th",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 175.0,
+        "unscreened_radius_pm": 28.81075924072889,
+        "inferred_zeff_from_reference_not_prediction": 14.816961895232,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.3067,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00025"
+      },
+      {
+        "Z": 91,
+        "symbol": "Pa",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 169.0,
+        "unscreened_radius_pm": 28.49415749083077,
+        "inferred_zeff_from_reference_not_prediction": 15.343007879678106,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 5.89,
+        "ionization_source_marker": "[",
+        "ionization_uncertainty_eV": "0.12"
+      },
+      {
+        "Z": 92,
+        "symbol": "U",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 170.0,
+        "unscreened_radius_pm": 28.184438387669566,
+        "inferred_zeff_from_reference_not_prediction": 15.25275489215059,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.19405,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00006"
+      },
+      {
+        "Z": 93,
+        "symbol": "Np",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 171.0,
+        "unscreened_radius_pm": 27.881379910382798,
+        "inferred_zeff_from_reference_not_prediction": 15.163557495120468,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.265608,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000019"
+      },
+      {
+        "Z": 94,
+        "symbol": "Pu",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 172.0,
+        "unscreened_radius_pm": 27.584769485804255,
+        "inferred_zeff_from_reference_not_prediction": 15.075397277125582,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.02576,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00025"
+      },
+      {
+        "Z": 95,
+        "symbol": "Am",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 166.0,
+        "unscreened_radius_pm": 27.294403491216844,
+        "inferred_zeff_from_reference_not_prediction": 15.62029115461205,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 5.97381,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00025"
+      },
+      {
+        "Z": 96,
+        "symbol": "Cm",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 166.0,
+        "unscreened_radius_pm": 27.010086788183333,
+        "inferred_zeff_from_reference_not_prediction": 15.62029115461205,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 5.992241,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000020"
+      },
+      {
+        "Z": 97,
+        "symbol": "Bk",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 168.0,
+        "unscreened_radius_pm": 26.73163228521237,
+        "inferred_zeff_from_reference_not_prediction": 15.434335307533335,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.19785,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00025"
+      },
+      {
+        "Z": 98,
+        "symbol": "Cf",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 168.0,
+        "unscreened_radius_pm": 26.458860527200002,
+        "inferred_zeff_from_reference_not_prediction": 15.434335307533335,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.281878,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.000006"
+      },
+      {
+        "Z": 99,
+        "symbol": "Es",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 165.0,
+        "unscreened_radius_pm": 26.191599309753535,
+        "inferred_zeff_from_reference_not_prediction": 15.714959585852121,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.3684,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00006"
+      },
+      {
+        "Z": 100,
+        "symbol": "Fm",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 167.0,
+        "unscreened_radius_pm": 25.929683316656,
+        "inferred_zeff_from_reference_not_prediction": 15.526756477039521,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.5,
+        "ionization_source_marker": "[",
+        "ionization_uncertainty_eV": "0.07"
+      },
+      {
+        "Z": 101,
+        "symbol": "Md",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 173.0,
+        "unscreened_radius_pm": 25.672953778867328,
+        "inferred_zeff_from_reference_not_prediction": 14.988256252402312,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.58,
+        "ionization_source_marker": "[",
+        "ionization_uncertainty_eV": "0.07"
+      },
+      {
+        "Z": 102,
+        "symbol": "No",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 176.0,
+        "unscreened_radius_pm": 25.421258153584315,
+        "inferred_zeff_from_reference_not_prediction": 14.732774611736364,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.62621,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.00005"
+      },
+      {
+        "Z": 103,
+        "symbol": "Lr",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 161.0,
+        "unscreened_radius_pm": 25.174449821996117,
+        "inferred_zeff_from_reference_not_prediction": 16.10539336438261,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 4.96,
+        "ionization_source_marker": "",
+        "ionization_uncertainty_eV": "0.05"
+      },
+      {
+        "Z": 104,
+        "symbol": "Rf",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 157.0,
+        "unscreened_radius_pm": 24.932387804476924,
+        "inferred_zeff_from_reference_not_prediction": 16.515721857742676,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.02,
+        "ionization_source_marker": "(",
+        "ionization_uncertainty_eV": "0.04"
+      },
+      {
+        "Z": 105,
+        "symbol": "Db",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 149.0,
+        "unscreened_radius_pm": 24.694936492053333,
+        "inferred_zeff_from_reference_not_prediction": 17.402472024601344,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 6.8,
+        "ionization_source_marker": "(",
+        "ionization_uncertainty_eV": "0.5"
+      },
+      {
+        "Z": 106,
+        "symbol": "Sg",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 143.0,
+        "unscreened_radius_pm": 24.4619653930717,
+        "inferred_zeff_from_reference_not_prediction": 18.132645675983216,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 7.8,
+        "ionization_source_marker": "[",
+        "ionization_uncertainty_eV": "0.5"
+      },
+      {
+        "Z": 107,
+        "symbol": "Bh",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 141.0,
+        "unscreened_radius_pm": 24.233348894071028,
+        "inferred_zeff_from_reference_not_prediction": 18.389846323869506,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 7.7,
+        "ionization_source_marker": "[",
+        "ionization_uncertainty_eV": "0.5"
+      },
+      {
+        "Z": 108,
+        "symbol": "Hs",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 134.0,
+        "unscreened_radius_pm": 24.00896603394074,
+        "inferred_zeff_from_reference_not_prediction": 19.350509937802986,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": 7.6,
+        "ionization_source_marker": "[",
+        "ionization_uncertainty_eV": "0.5"
+      },
+      {
+        "Z": 109,
+        "symbol": "Mt",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 129.0,
+        "unscreened_radius_pm": 23.788700290510093,
+        "inferred_zeff_from_reference_not_prediction": 20.10052970283411,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": null,
+        "ionization_source_marker": null,
+        "ionization_uncertainty_eV": null
+      },
+      {
+        "Z": 110,
+        "symbol": "Ds",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 128.0,
+        "unscreened_radius_pm": 23.57243937877818,
+        "inferred_zeff_from_reference_not_prediction": 20.2575650911375,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": null,
+        "ionization_source_marker": null,
+        "ionization_uncertainty_eV": null
+      },
+      {
+        "Z": 111,
+        "symbol": "Rg",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 121.0,
+        "unscreened_radius_pm": 23.360075060050452,
+        "inferred_zeff_from_reference_not_prediction": 21.4294903443438,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": null,
+        "ionization_source_marker": null,
+        "ionization_uncertainty_eV": null
+      },
+      {
+        "Z": 112,
+        "symbol": "Cn",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 122.0,
+        "unscreened_radius_pm": 23.1515029613,
+        "inferred_zeff_from_reference_not_prediction": 21.253838784144264,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": null,
+        "ionization_source_marker": null,
+        "ionization_uncertainty_eV": null
+      },
+      {
+        "Z": 113,
+        "symbol": "Nh",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 136.0,
+        "unscreened_radius_pm": 22.946622404120355,
+        "inferred_zeff_from_reference_not_prediction": 19.065943615188235,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": null,
+        "ionization_source_marker": null,
+        "ionization_uncertainty_eV": null
+      },
+      {
+        "Z": 114,
+        "symbol": "Fl",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 143.0,
+        "unscreened_radius_pm": 22.745336242680704,
+        "inferred_zeff_from_reference_not_prediction": 18.132645675983216,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": null,
+        "ionization_source_marker": null,
+        "ionization_uncertainty_eV": null
+      },
+      {
+        "Z": 115,
+        "symbol": "Mc",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 162.0,
+        "unscreened_radius_pm": 22.547550710135653,
+        "inferred_zeff_from_reference_not_prediction": 16.005977355960493,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": null,
+        "ionization_source_marker": null,
+        "ionization_uncertainty_eV": null
+      },
+      {
+        "Z": 116,
+        "symbol": "Lv",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 175.0,
+        "unscreened_radius_pm": 22.35317527297931,
+        "inferred_zeff_from_reference_not_prediction": 14.816961895232,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": null,
+        "ionization_source_marker": null,
+        "ionization_uncertainty_eV": null
+      },
+      {
+        "Z": 117,
+        "symbol": "Ts",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 165.0,
+        "unscreened_radius_pm": 22.162122492868377,
+        "inferred_zeff_from_reference_not_prediction": 15.714959585852121,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": null,
+        "ionization_source_marker": null,
+        "ionization_uncertainty_eV": null
+      },
+      {
+        "Z": 118,
+        "symbol": "Og",
+        "period_n_heuristic": 7,
+        "reference_radius_pm": 157.0,
+        "unscreened_radius_pm": 21.97430789547119,
+        "inferred_zeff_from_reference_not_prediction": 16.515721857742676,
+        "slater_zeff": null,
+        "slater_radius_pm": null,
+        "ionization_eV": null,
+        "ionization_source_marker": null,
+        "ionization_uncertainty_eV": null
+      }
+    ],
+    "radii_count": 118,
+    "ionization_rows_available": 108,
+    "R_infinity_m_inverse": 10973731.568038495,
+    "R_hydrogen_m_inverse": 10967758.340158854,
+    "hydrogen_ionization_nonrel_eV": 13.598287264136426,
+    "hydrogen_ionization_reference_eV": 13.598434599702,
+    "balmer_alpha_vacuum_nm": 656.4696063403342,
+    "H_levels_eV": {
+      "1": -13.598287264136426,
+      "2": -3.3995718160341064,
+      "3": -1.5109208071262694,
+      "4": -0.8498929540085266,
+      "5": -0.543931490565457
+    },
+    "reason": "alpha, mass, h and atomic shell rules are inputs, not operator outputs."
+  },
+  "decays": {
+    "kind": "energy_conservation_and_kinematics_reference",
+    "Po210_Q_MeV_input": 5.40745,
+    "Po210_alpha_MeV_nonrel_mass_number_approx": 5.304450952380953,
+    "Po210_alpha_MeV_reference": 5.30433,
+    "neutron_Q_MeV": 0.7823335593099138,
+    "beta_spectrum_no_Coulomb_recoil_radiative_corrections": [
+      {
+        "electron_kinetic_MeV": 0.0,
+        "arbitrary_density": 0.0
+      },
+      {
+        "electron_kinetic_MeV": 0.039116677965495686,
+        "arbitrary_density": 0.06190806611125385
+      },
+      {
+        "electron_kinetic_MeV": 0.07823335593099137,
+        "arbitrary_density": 0.08570249385832798
+      },
+      {
+        "electron_kinetic_MeV": 0.11735003389648706,
+        "arbitrary_density": 0.1015997137101667
+      },
+      {
+        "electron_kinetic_MeV": 0.15646671186198274,
+        "arbitrary_density": 0.11226957386752023
+      },
+      {
+        "electron_kinetic_MeV": 0.19558338982747844,
+        "arbitrary_density": 0.11870914966789646
+      },
+      {
+        "electron_kinetic_MeV": 0.23470006779297412,
+        "arbitrary_density": 0.12145506654653948
+      },
+      {
+        "electron_kinetic_MeV": 0.2738167457584698,
+        "arbitrary_density": 0.12088704425862315
+      },
+      {
+        "electron_kinetic_MeV": 0.3129334237239655,
+        "arbitrary_density": 0.11733658036844173
+      },
+      {
+        "electron_kinetic_MeV": 0.35205010168946116,
+        "arbitrary_density": 0.11113426187393298
+      },
+      {
+        "electron_kinetic_MeV": 0.3911667796549569,
+        "arbitrary_density": 0.10263314209398228
+      },
+      {
+        "electron_kinetic_MeV": 0.43028345762045256,
+        "arbitrary_density": 0.09222137576837673
+      },
+      {
+        "electron_kinetic_MeV": 0.46940013558594823,
+        "arbitrary_density": 0.08032952335664531
+      },
+      {
+        "electron_kinetic_MeV": 0.508516813551444,
+        "arbitrary_density": 0.06743500095320962
+      },
+      {
+        "electron_kinetic_MeV": 0.5476334915169396,
+        "arbitrary_density": 0.05406490787295081
+      },
+      {
+        "electron_kinetic_MeV": 0.5867501694824353,
+        "arbitrary_density": 0.040797886659444164
+      },
+      {
+        "electron_kinetic_MeV": 0.625866847447931,
+        "arbitrary_density": 0.02826538260704173
+      },
+      {
+        "electron_kinetic_MeV": 0.6649835254134266,
+        "arbitrary_density": 0.017152517950875676
+      },
+      {
+        "electron_kinetic_MeV": 0.7041002033789223,
+        "arbitrary_density": 0.008198711639159957
+      },
+      {
+        "electron_kinetic_MeV": 0.7432168813444181,
+        "arbitrary_density": 0.0021981269382540924
+      },
+      {
+        "electron_kinetic_MeV": 0.7823335593099138,
+        "arbitrary_density": 0.0
+      }
+    ],
+    "Co60_gamma_keV_inputs": [
+      1173.228,
+      1332.492
+    ],
+    "Co60_gamma_wavelength_pm": [
+      1.056778379251094,
+      0.930468613944401
+    ],
+    "operator_predicts_nuclear_energies": false,
+    "reason": "Q values/level gaps and interactions are inputs; kinematics is not a nuclear model."
+  },
+  "gravity": {
+    "kind": "Newton_Schwarzschild_weak_field_reference",
+    "bodies": [
+      {
+        "body": "Earth",
+        "GM_m3_s2_input": 398600441800000.0,
+        "radius_m_input": 6371000.0,
+        "potential_m2_s2": -62564815.85308429,
+        "surface_g_m_s2": 9.820250487063928,
+        "schwarzschild_radius_m": 0.008870056078235341,
+        "compactness_Rs_over_R": 1.392254917318371e-09,
+        "Kretschmann_m_inverse4": 1.4118493123050643e-44
+      },
+      {
+        "body": "Sun",
+        "GM_m3_s2_input": 1.3271244e+20,
+        "radius_m_input": 695700000.0,
+        "potential_m2_s2": -190761017680.0345,
+        "surface_g_m_s2": 274.20011165737316,
+        "schwarzschild_radius_m": 2953.2500761002498,
+        "compactness_Rs_over_R": 4.245005140290714e-06,
+        "Kretschmann_m_inverse4": 9.231019609773262e-46
+      }
+    ],
+    "gps_gravity_us_day": 45.71821278283108,
+    "gps_kinetic_us_day": -7.213599822661272,
+    "gps_net_us_day": 38.50461296016981,
+    "gps_approximations": "circular orbit, spherical nonrotating Earth, no multipoles",
+    "reason": "GM and field equations are external inputs, not derived closure parameters."
+  },
+  "horizons": {
+    "kind": "classical_horizon_countercheck_not_invariant_interior_volume",
+    "input_masses_solar": [
+      36,
+      29,
+      62
+    ],
+    "final_spin_input": 0.67,
+    "area_ratio_nonrotating": 1.7987833411324285,
+    "area_ratio_final_spin_0_67_initial_spins_zero": 1.56706505876656,
+    "euclidean_volume_proxy_ratio": 3.354606235484552,
+    "final_entropy_over_kB": 3.5125465926740536e+80,
+    "Schwarzschild_Hawking_temperature_62_solar_K": 9.952032920911252e-10,
+    "Kerr_horizon_angular_velocity_rad_s": 629.6010249035161,
+    "reason": "Area increases in this example; Euclidean sphere volume is not a GR interior invariant."
+  },
+  "galaxies": {
+    "kind": "flat_curve_required_mass_profile_illustration",
+    "assumed_velocity_km_s": 200.0,
+    "enclosed_mass_ratio_20kpc_over_10kpc": 2,
+    "required_density_at_10kpc_kg_m3": 5.008910978488449e-22,
+    "reason": "Calling it connectivity supplies neither a stress tensor nor lensing predictions."
+  },
+  "operator": {
+    "kind": "explicit_nonuniqueness_witness_not_a_proposed_physical_theory",
+    "admissible_examples": [
+      {
+        "length_m": 1e-20,
+        "step_s": 3.33564095198152e-29,
+        "signal_speed_m_s": 299792458.0,
+        "illustrative_alpha": 0.01,
+        "dimensionless_relaxation_rate": 1,
+        "mismatch_at_dimensionless_time_1": 0.36787944117144233
+      },
+      {
+        "length_m": 1e-30,
+        "step_s": 3.335640951981521e-39,
+        "signal_speed_m_s": 299792458.0,
+        "illustrative_alpha": 0.02,
+        "dimensionless_relaxation_rate": 2,
+        "mismatch_at_dimensionless_time_1": 0.1353352832366127
+      },
+      {
+        "length_m": 1e-35,
+        "step_s": 3.3356409519815203e-44,
+        "signal_speed_m_s": 299792458.0,
+        "illustrative_alpha": 0.03,
+        "dimensionless_relaxation_rate": 3,
+        "mismatch_at_dimensionless_time_1": 0.049787068367863944
+      }
+    ],
+    "unique_alpha_or_lambda_temperature": false,
+    "reason": "A finite speed and convergence of mismatch leave scale and coupling free."
+  }
+}
