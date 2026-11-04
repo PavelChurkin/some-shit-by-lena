@@ -1,0 +1,62 @@
+{
+  "horizons": {
+    "sun": {
+      "r_s_m": 2953.250268143649,
+      "area_m2": 109599953.06277949,
+      "euclid_volume_m3": 107892030257.06161,
+      "A_over_V_per_m": 0.001015829925543607,
+      "entropy_bits": 1.5132306879704097e+77,
+      "Mc2_over_FP_rs_half": 1.0,
+      "Lambda_rs2": 9.642697308938815e-46
+    },
+    "sgrA": {
+      "r_s_m": 12690116402.21326,
+      "area_m2": 2.0236764397413505e+21,
+      "euclid_volume_m3": 8.56022986024475e+30,
+      "A_over_V_per_m": 2.3640445090612213e-10,
+      "entropy_bits": 2.794060768789943e+90,
+      "Mc2_over_FP_rs_half": 1.0,
+      "Lambda_rs2": 1.7804477843598385e-32
+    },
+    "area_equals_volume_radius_m": 3.0
+  },
+  "merger": {
+    "sphere_volume_conserving_loss": 0.20629947401590032,
+    "gr_equal_mass_area_ratio": 1.5640894824617226,
+    "gr_equal_mass_radiated_fraction": 0.04837999999999998,
+    "gw150914_area_ratio": 1.56706505876656,
+    "hawking_area_theorem_holds": true,
+    "max_radiated_equal_area_bound": 0.29289321881345254
+  },
+  "cascade": {
+    "dslow_s_per_m": 6.666666666666667e-07,
+    "levels": {
+      "atomic": {
+        "step_s": 1e-15,
+        "L_cut_m": 1.5e-09,
+        "tau_match_s": 1.1690244119785306e-11,
+        "resolvable": true
+      },
+      "molecular": {
+        "step_s": 2e-13,
+        "L_cut_m": 3e-07,
+        "tau_match_s": 3.3065003563305414e-08,
+        "resolvable": true
+      },
+      "hbond_network": {
+        "step_s": 1e-12,
+        "L_cut_m": 1.4999999999999998e-06,
+        "tau_match_s": 3.6967797821911825e-07,
+        "resolvable": true
+      }
+    }
+  },
+  "chirality": {
+    "chiral_Lz_for_+g_and_-g": [
+      0.3,
+      -0.3
+    ],
+    "achiral_Lz": 0.0,
+    "sign_flips_with_gradient": true
+  }
+}

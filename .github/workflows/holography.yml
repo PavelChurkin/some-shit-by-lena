@@ -23,3 +23,5 @@ jobs:
         run: python -m unittest discover -s "Теория Лены/Тест голографии 1" -v
       - name: Verify offline calculation results
         run: python "Теория Лены/Тест голографии 1/checks.py" --check --verbose
+      - name: Holography 2 tests
+        run: cd "Теория Лены/Тест голографии 2" && python -m unittest discover -s . -v && python checks.py --check
